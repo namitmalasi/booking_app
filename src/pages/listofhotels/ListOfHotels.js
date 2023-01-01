@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Header from "../../components/header/Header";
+import Navbar from "../../components/navbar/Navbar";
 
 const ListOfHotels = () => {
   return (
-    <div>ListOfHotels</div>
-  )
-}
+    <div>
+      <Navbar />
+      <Header type="list" />
+    </div>
+  );
+};
 
-export default ListOfHotels
+export default ListOfHotels;
